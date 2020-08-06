@@ -38,8 +38,23 @@ Here are some examples of *Bootstrap* usage:
         </div>
     </nav>`
 
-    Here are some exmaples of my work:
-    ![Screenshot](Screenshot1)
+ 
+ 
+ 
+ 
+ 
+ 
+<img width="1396" alt="Screenshot1" src="https://user-images.githubusercontent.com/68169895/89588631-a7382000-d809-11ea-9be8-6de14c704acd.png">
+
+<img width="1389" alt="Screenshot2" src="https://user-images.githubusercontent.com/68169895/89588866-275e8580-d80a-11ea-9b25-ae525c6d4458.png">
+
+<img width="1408" alt="Screenshot3" src="https://user-images.githubusercontent.com/68169895/89588886-2e859380-d80a-11ea-9fd8-60090f5aee61.png">
+
+
+
+** Here is the link to my Portfolio **
+
+[My Portfolio](https://larraineg.github.io/BootstrapHW/)
 
 **For questions or concerns:**
 [The Internet](https://www.google.com)
