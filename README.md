@@ -60,4 +60,8 @@ Here are some examples of *Bootstrap* usage:
 [The Internet](https://www.google.com)
 
 ## License & Copyright
+<<<<<<< HEAD
 © Larraine Gonzales, Rice Coding Bootcamp
+=======
+© Larraine Gonzales, Rice Coding Bootcamp
+>>>>>>> ac301509132c68f80e588d6d586d06b782d078f3
