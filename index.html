@@ -11,28 +11,33 @@
     <style type="text/css">
         body {
             background-image: url(https://user-images.githubusercontent.com/68169895/90802818-68ac6600-e2dd-11ea-9251-16e91a128137.jpg);
-            background-size:unset;
+            background-size: unset;
             background-attachment: fixed;
         }
+
         .card {
             margin-top: 50px;
             margin-left: 50px;
             margin: 0 auto;
-
         }
+
         .card-subtitle {
             margin-top: 50px;
         }
+
         .card-text {
             margin-top: 30px
-        }  
-        .card-header{
-            background-color:black;
         }
+
+        .card-header {
+            background-color: black;
+        }
+
         #Image {
             align-content: center;
             margin-top: 75px;
         }
+
         p {
             color: white;
             font-style: bold;
@@ -46,49 +51,52 @@
 <body>
 
     <nav class=" navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-<<<<<<< HEAD
-                <a class="nav-link" href="https://larraineg.github.io/BootstrapHW/"> <img src="https://user-images.githubusercontent.com/68169895/90803082-d5276500-e2dd-11ea-9581-0c0d1be8d496.png" alt="Logo" style="width:50;height:50px;"> <span class="sr-only">(current)</span></a>
-=======
-                <a class="nav-link" href="https://larraineg.github.io/BootstrapHW/"> <img src="https://clipartmag.com/images/retro-starburst-clipart-7.jpg" alt="Logo" style="width:50;height:50px;"> <span class="sr-only">(current)</span></a>
->>>>>>> b44092edd6740750c32f048b9427ad9e993a35c6
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="https://larraineg.github.io/BootstrapHW/">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://larraineg.github.io/BootstrapHW/portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://larraineg.github.io/BootstrapHW/contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-            <!-- <div class="card text-center">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="nav-link" href="https://larraineg.github.io/BootstrapHW/"> <img
+                    src="https://user-images.githubusercontent.com/68169895/90803082-d5276500-e2dd-11ea-9581-0c0d1be8d496.png"
+                    alt="Logo" style="width:50;height:50px;"> <span class="sr-only">(current)</span></a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://larraineg.github.io/BootstrapHW/">Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://larraineg.github.io/BootstrapHW/portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://larraineg.github.io/BootstrapHW/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <div class="card text-center">
                 <div class="card-header">
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Larraine Gonzales</h5>
-<<<<<<< HEAD
                     <p class="card-text"> -->
-                        <div id="Image"><img src="https://user-images.githubusercontent.com/68169895/90832224-ed61a900-e30a-11ea-8375-a1084e73022e.jpg" class="rounded mx-auto d-block" alt="placeholder" style="width:250px;height:250px;">
-=======
-                    <p class="card-text">
-                        <div id="Image"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAB8CAMAAACcwCSMAAAARVBMVEVtbW1sbGx1dXVpaWnZ2dmQkJBlZWXS0tJ8fHzW1taNjY2mpqaenp7IyMjg4ODd3d2wsLCYmJiDg4O3t7fCwsLm5uZgYGC4wSqNAAACbElEQVRoge2byY7bMAyGJVH7vjnv/6glnbSYw6DTYtTmwu8SIyb4i6sPhoV6I0K+EcEwDMMwDMMwDMMwDMMwDMMwDPM/+ZPXE+deYQCgKwkE/gqv4BO1jzZCKnVKPmZ0NRNi0G3aK8IHvVsEZvYS7yEZBOS9hjihDtEFLyFdyFKQar3cJMcx4Zl8imTjnTYAhmy0hdGuqscBcUiuOoyqu5QzCtUyc10WY44ag0w6SgHD1YDiOaDNAF/aHLocCN2W4JwHtRfVHnIzYBeFLtVySrmlULzXQuK9SLIZOlubLv99ccgxB4/RJGohux2W2bSBVQejc8Zs49UwES9s2VZSrpqSEEP6pC//Wt0mFJ8uTw/SlmIx5pruvl/OrTu5WG4Sd8tPjLw7agbXD4hjJCgeQyklCev2LZ7JMUStn40vbvFHc6UsEKscFjftCrWNx6bIxR25kD6EV2FvcVWrbld6HI981PzwYauNjl81xz7Tun+IfOr+EEWL1DzVPB8Ql8+aG+zqHibpwr4HHfugdzfvHNioo/VD0ThEnEGLAzC/3+3S56XToBWLMzRFKyO3dQeFh/Ih3Tajtz4U2sjZhiphZHdizsHUVpsDGuesJ2443e5Kyxm6oGTgDePIxnvcrChuR9VamwMbTs7VkbwVtbHH/V32M9WxT1z5PVK4ZJKyo7nU+O8o2xzZ7c9H1ah7ptrxWQnWyteNXw+W28bGVmJuhbaOtSda/ecJ1KrXVeZvXdrerivEg7IvAPsufdG/UuXe/4E2ZRbn6EsbPOU/0CbXh2wYhmEYhmEYhmEYhmEYhmEYhmGO8NaPYt/5OfAP2X0cXp4SiKoAAAAASUVORK5CYII=" alt="placeholder" style="width:250px;height:250px;">
->>>>>>> b44092edd6740750c32f048b9427ad9e993a35c6
-                    <p>
-                        Hi! I am Larraine Gonzales. I am a highly self-motivated full stack developer. Please take a look around at some of my work and please feel free to contact me.
-                    </p>
+    <div id="Image"><img
+            src="https://user-images.githubusercontent.com/68169895/90832224-ed61a900-e30a-11ea-8375-a1084e73022e.jpg"
+            class="rounded mx-auto d-block" alt="placeholder" style="width:250px;height:250px;">
+        <p>
+            Hi! I am Larraine Gonzales. I am a highly self-motivated full stack developer. Please take a look around at
+            some of my work and please feel free
+        </p>
 
-            </div>
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>              
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 
 
 </body>
